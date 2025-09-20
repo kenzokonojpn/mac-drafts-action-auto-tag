@@ -128,8 +128,6 @@ The AI generates contextually relevant Japanese tags:
 ## 🔄 Version History
 
 - **v1.0.0** - Initial release with basic auto-tagging
-- **v1.1.0** - Added multi-folder support and improved error handling
-- **v1.2.0** - Enhanced batch processing and cost optimization
 
 ## 🤝 Contributing
 
