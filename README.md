@@ -29,9 +29,15 @@ Automatically generate Japanese tags for your [Drafts](https://getdrafts.com) no
    - Download `drafts-auto-tagging.js` from this repository
 
 3. **Configure the Script**
+   - Open `drafts-auto-tagging.js`
+   - Replace the API key placeholder:
    ```javascript
-   const API_KEY = "your-anthropic-api-key-here"; // Replace with your API key
+   const API_KEY = "your-anthropic-api-key-here"; // Replace with your actual API key
+   ```
+   - Adjust settings if needed:
+   ```javascript
    const MAX_DRAFTS = 100; // Adjust batch size as needed
+   const BATCH_SIZE = 10;  // Drafts per batch
    ```
 
 4. **Install in Drafts**
@@ -128,6 +134,8 @@ The AI generates contextually relevant Japanese tags:
 ## 🔄 Version History
 
 - **v1.0.0** - Initial release with basic auto-tagging
+- **v1.1.0** - Added multi-folder support and improved error handling
+- **v1.2.0** - Enhanced batch processing and cost optimization
 
 ## 🤝 Contributing
 
