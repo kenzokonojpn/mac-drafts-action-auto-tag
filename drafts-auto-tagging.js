@@ -1,6 +1,6 @@
 // Drafts Auto-Tagging Script
 // Automatically generates Japanese tags for drafts using Anthropic Claude API
-// Repository: https://github.com/yourusername/drafts-auto-tagging
+// Repository: https://github.com/kenzokonojpn/mac-drafts-action-auto-tag/
 // License: MIT
 // Created: 2025-09-21
 
